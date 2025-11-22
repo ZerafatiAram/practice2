@@ -1,0 +1,37 @@
+$color1:rgb(168, 131, 230);
+$color2:rgb(176, 131, 248);
+$color3:rgb(204, 176, 219);
+.banner{
+    background-color: $color1;
+    color: rgb(248, 255, 240);
+    text-align: center;
+    padding: 1.5em;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px gray;
+    text-shadow: 5px 5px 10px rgb(11, 75, 96);
+}
+.menu{
+    background-color: rgb(115, 115, 161);
+    display: flex;
+    gap: 0.5em;
+    padding: 0.3em;
+    a{
+        background-color: $color1;
+        padding: 0.5em;
+        min-width: 100px;
+        text-align: center;
+        border-radius: 1em;
+        text-decoration: none;
+        color: rgb(204, 199, 250);
+    }
+    a:hover{
+        background-color: $color3;
+    }
+
+}
+.content{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1.5em;
+
+}
